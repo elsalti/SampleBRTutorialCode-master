@@ -15,7 +15,8 @@ public class MainActivity extends AppCompatActivity {
 
     private BroadcastReceiver myBroadcastReceiver;
     private int MY_PERMISSION;
-
+    private int mCounter;
+    
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
